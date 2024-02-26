@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .banner {
+            font-size: 16px;
+            /* Tamaño de fuente fijo en píxeles */
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+            /* Contorno del texto blanco */
+            text-align: center;
+            white-space: pre-wrap;
+            transition: color 0.5s ease;
+            /* Animación suave del color del texto */
+            max-width: 100%;
+            /* Evita que el texto se desborde en dispositivos móviles */
+            max-height: 100%;
+            /* Evita que el texto se desborde en dispositivos móviles */
+            margin: auto;
+            /* Centra el texto horizontalmente */
+            overflow: hidden;
+            /* Oculta cualquier desbordamiento del texto */
+            position: absolute;
+            /* Coloca el texto en una posición absoluta */
+            top: 50%;
+            /* Lo sitúa en el centro vertical */
+            left: 50%;
+            /* Lo sitúa en el centro horizontal */
+            transform: translate(-50%, -50%);
+            /* Centra el texto verticalmente y horizontalmente */
+        }
+    </style>
+</head>
+
+<body>
+    <pre id="banner" class="banner">
+   ⣿⣿⣿⣿⣿⣿⣿⡇⡌⡰⢃⡿⡡⠟⣠⢹⡏⣦⢸⣿⣿⣿⣿⣿⣿
+    ⣿⣿⣿⣿⣿⣿⡿⢰⠋⡿⢋⣐⡈⣽⠟⢀⢻⢸⡂⣿⣿⣿⣿⣿⣿ 
+    ⣿⣿⣿⣿⣿⣋⠴⢋⡘⢰⣄⣀⣅⣡⠌⠛⠆⣿⡄⣿⣿⣿⣿⣿⣿ 
+    ⣿⣿⣿⣿⣿⣿⣶⣁⣐⠄⠹⣟⠯⢿⣷⠾⠁⠥⠃⣹⣿⣿⣿⣿⣿ 
+     ⣿⣿⣿⣿⠟⠋⡍⢴⣶⣶⣶⣤⣭⡐⢶⣾⣿⣶⡆⢨⠛⠻⣿⣿⣿                            
+     ⣿⣿⣿⢏⣘⣚⣣⣾⣿⣿⣿⣿⣿⣿⢈⣿⣿⣿⣧⣘⠶⢂⠹⣿⣿           
+     ⣿⣿⠃⣾⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⡀⢿⣿⣿⣿⣿⣿⣿⡇⣿⣿           
+     ⣿⣿⡄⣿⣿⣿⣿⣿⣿⡯⠄⠄⠾⠿⠿⢦⣝⠻⣿⣿⣿⣿⠇⣿⣿          
+     ⣿⣿⣷⣜⠿⢿⣿⡿⠟⣴⣾⣿⡇⢰⣾⣦⡹⣷⣮⡙⢟⣩⣾⣿⣿           
+     ⣿⣿⣿⣿⣿⣆⢶⣶⣦⢻⣿⣿⣷⢸⣿⣿⣷⣌⠻⡷⣺⣿⣿⣿⣿           
+    ⣿⣿⣿⣿⣿⣿⡜⢿⣿⡎⢿⣿⣿⡬⣿⣿⣿⡏⢦⣔⠻⣿⣿⣿⣿ 
+    ⣿⣿⣿⣿⣿⣿⣿⠎⠻⣷⡈⢿⣿⡇⢛⣻⣿⣿⢸⣿⣷⠌⡛⢿⣿ 
+    ⣿⣿⣿⣿⣿⣿⡏⢰⣷⡙⢷⣌⢻⣿⣿⣿⣿⣿⢸⡿⢡⣾⣿⡶⠻ 
+    ⣿⣿⣿⣿⣿⡟⣰⣶⣭⣙⠊⣿⣷⣬⣛⠻⣿⣿⠈⣴⣿⣿⣿⠃⠄ 
+    ⣿⣿⣿⣿⡟⠄⠹⢿⣿⣿⣿⣤⠻⠟⠋⠡⠘⠋⢸⣿⣿⡿⠁⠄⠄ 
+    ⣿⣿⣿⣿⠁⠄⠄⠄⠙⢻⣿⣿⣇⠄⠄⠄⠄⠄⣺⡿⠛⠄⠄⠄⠄ 
+    ⣿⣿⣿⡏⠄⠄⠄⠄⠄⠄⠄⠉⠻⠷⠄⢠⣄⠄⠋⠄⠄⠄⠄⠄⠄ 
+⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸
+⣿⠄⠄⠄⠄⠄⠄⠄⠄
+
+    ████████╗██╗░░░██╗░█████╗░
+    ╚══██╔══╝██║░░░██║██╔══██╗
+    ░░░██║░░░╚██╗░██╔╝███████║
+    ░░░██║░░░░╚████╔╝░██╔══██║
+    ░░░██║░░░░░╚██╔╝░░██║░░██║
+    ░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝
+    </pre>
+    <script>
+        const banner = document.getElementById("banner");
+        let frame = 0; // Inicializa el contador de fotogramas
+        const period = 60; // Período de la onda (número de fotogramas por ciclo)
+
+        setInterval(() => {
+            // Incrementa el contador de fotogramas
+            frame++;
+
+            // Calcula el valor de la onda para el color del texto
+            const wave = Math.sin(frame / period * Math.PI) * 50;
+
+            // Calcula los componentes RGB del color del texto
+            const r = Math.round(127 + 127 * Math.sin(frame / period * Math.PI * 2 / 3 + 0) * Math.sin(frame / period * Math.PI * 2 / 3 + 0));
+            const g = Math.round(127 + 127 * Math.sin(frame / period * Math.PI * 2 / 3 + 2) * Math.sin(frame / period * Math.PI * 2 / 3 + 2));
+            const b = Math.round(127 + 127 * Math.sin(frame / period * Math.PI * 2 / 3 + 4) * Math.sin(frame / period * Math.PI * 2 / 3 + 4));
+
+            // Aplica el efecto de onda al color del texto
+            banner.style.color = `rgb(${r}, ${g}, ${b})`; // Cambia el color del texto
+        }, 1000 / 30); // 30 fotogramas por segundo (aproximadamente)
+    </script>
+</body>
+
+</html>
